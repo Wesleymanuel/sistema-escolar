@@ -36,6 +36,8 @@ function cadastrar() {
         matriculaTela.textContent = el.matricula
         matriculaTela.classList.add("ccc")
 
+        
+
         mosstra.appendChild(nomesTela)
         mosstra.appendChild(matriculaTela)
 
