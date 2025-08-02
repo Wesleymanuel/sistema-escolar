@@ -1,3 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgreen;
+}
+.formulario{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.informacoes{
+    align-self: center;
+    margin: 30px;
+}
+button{
+    margin-right: 20px;
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+}
+h1{
+    margin-left: 20px;
+}
+.pesquisar{
+    align-self: center;
+    height: 30px;
+    width: 40%;
+    border-radius: 20px;
+}
+.nav{
+    position: relative;
+    align-self: center;
+    margin-right: 30px;
+}
 .bb{
     padding: 20px;
     border: solid;
@@ -6,4 +46,14 @@
 }
 .kkk{
     font-size: 20px;
+}
+#nome{
+    border-radius: 20px;
+    height: 25px;
+    margin-right: 20px;  
+}
+#mat{
+    border-radius: 20px;
+    height: 25px;
+    margin-right: 20px;
 }
