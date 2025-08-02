@@ -1,0 +1,9 @@
+.bb{
+    padding: 20px;
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+}
+.kkk{
+    font-size: 20px;
+}
